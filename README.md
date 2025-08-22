@@ -10,13 +10,19 @@ source venv/bin/activate
 ```
 
 then install the required libraries with:
-`pip install -r requirements.txt`
+````
+pip install -r requirements.txt
+```
 
 create your .env, you just need one var (you can use any name for your database, it will be created automatically):
-`DATABASE_NAME=name_it_as_you_want`
+```
+DATABASE_NAME=name_it_as_you_want
+```
 
 and finally run the api with:
-`fastapi dev src/main.py`
+````
+fastapi dev src/main.py
+```
 
 you can test all the endpoints just by pasting this in your browser:
 

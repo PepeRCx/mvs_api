@@ -10,7 +10,7 @@ source venv/bin/activate
 ```
 
 then install the required libraries with:
-````
+```
 pip install -r requirements.txt
 ```
 
@@ -20,7 +20,7 @@ DATABASE_NAME=name_it_as_you_want
 ```
 
 and finally run the api with:
-````
+```
 fastapi dev src/main.py
 ```
 
